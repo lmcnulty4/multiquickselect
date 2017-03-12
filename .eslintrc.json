@@ -1,0 +1,14 @@
+{
+    "env": {
+        "browser": true,
+        "node": true
+    },
+    "extends": "eslint:recommended",
+    "rules": {
+        "indent": ["error", 4],
+        "linebreak-style": ["error", "windows"],
+        "quotes": [2, "double"],
+        "semi": 2,
+        "no-constant-condition": 0
+    }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "multiquickselect",
+  "version": "1.0.0",
+  "description": "A small, fast module to create ordered buckets of elements of an array such that the elements within a bucket are unsorted but all elements in one bucket are smaller than all elements in the next bucket",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "eslint index.js test.js",
+    "test": "tape test.js"
+  },
+  "dependencies": {},
+  "author": "Luke McNulty",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^3.17.1",
+    "tape": "^4.6.3"
+  }
+}
